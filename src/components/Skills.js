@@ -52,4 +52,8 @@ const itemData = [
     img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg',
     title: 'Postgres',
   },
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg',
+    title: 'Spring',
+  },
 ];
