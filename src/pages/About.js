@@ -6,7 +6,7 @@ import Skills from '../components/Skills';
 function About() {
     return (
         <>
-            <h1>About Me</h1>
+            <h1 id="about">About Me</h1>
             <div className="about-block">
                 <img className="about-image" src={LouieHeadshot} alt="Louie's headshot"/>
                 <p>Here is a long paragraph about how I became a programmer. </p>
