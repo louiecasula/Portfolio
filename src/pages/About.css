@@ -1,0 +1,11 @@
+.about-block {
+    margin: 20px;
+    display: flex;
+    flex-basis: 1;
+    justify-content: center;
+    gap: 70px;
+}
+
+.about-image {
+    height: 300px;
+}
