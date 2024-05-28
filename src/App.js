@@ -5,11 +5,11 @@ import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
-    <>
+    <div class="gradient">
       <Navbar />
       <About />
       <Portfolio />
-    </>
+    </div>
   );
 }
 

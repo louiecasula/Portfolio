@@ -23,7 +23,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ background: '#00000078' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
