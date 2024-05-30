@@ -36,6 +36,14 @@ const itemData = [
     title: 'Python',
   },
   {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg',
+    title: 'Spring',
+  },
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+    title: 'React',
+  },
+  {
     img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg',
     title: 'HTML',
   },
@@ -44,19 +52,11 @@ const itemData = [
     title: 'CSS',
   },
   {
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
-    title: 'React',
-  },
-  {
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
-    title: 'Git',
-  },
-  {
     img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg',
     title: 'Postgres',
   },
   {
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg',
-    title: 'Spring',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
+    title: 'Git',
   },
 ];
