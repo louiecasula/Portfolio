@@ -1,0 +1,19 @@
+.greeting-block {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.greeting-block p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.greeting-image {
+    height: 270px;
+    border-radius: 50%;
+}
