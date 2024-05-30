@@ -2,9 +2,10 @@ import React from 'react';
 import './Portfolio.css';
 import Projects from '../components/Projects';
 
-function About() {
+function Portfolio() {
     return (
         <>
+            <hr/>
             <h1 id="portfolio">Portfolio</h1>
             <div className="projects">
                 <Projects />
@@ -13,4 +14,4 @@ function About() {
     )
 }
 
-export default About;
+export default Portfolio;
