@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://https://louiecasula.github.io/Portfolio/",
+  "homepage": "https://louiecasula.github.io/Portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
