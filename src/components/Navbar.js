@@ -12,18 +12,26 @@ import MenuItem from '@mui/material/MenuItem';
 const pages = ['About', 'Portfolio', 'Contact'];
 
 function Navbar() {
-  const [navMenuOpen, setNavMenuOpen] = React.useState(false);
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
-  const handleOpenNavMenu = () => {
-    setNavMenuOpen(true);
+  const handleOpenNavMenu = (event) => {
+    setAnchorEl(event.currentTarget);
   };
 
   const handleCloseNavMenu = () => {
-    setNavMenuOpen(false);
+    setAnchorEl(null);
   };
 
+  const navMenuOpen = Boolean(anchorEl);
+
   return (
-    <AppBar position="static" sx={{ background: '#00000078' }}>
+    <AppBar 
+      position="sticky" 
+      sx={{ 
+        background: 'rgba(20, 93, 160, 0.8)', 
+        textAlign: 'center', 
+        padding: '5px 20px' 
+      }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -34,9 +42,11 @@ function Navbar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.5rem',
+              fontFamily: 'Lobster',
+              fontWeight: 'bold',
+              fontSize: '2rem',
+              letterSpacing: '0.15rem',
+              textShadow: '2px 2px 4px rgba(0, 0, 0, 1)',
               color: 'inherit',
               textDecoration: 'none',
             }}
@@ -44,10 +54,31 @@ function Navbar() {
             Louie Casula
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
+          <Box 
+            sx={{ 
+              flexGrow: 1, 
+              display: { xs: 'none', md: 'flex'}, 
+               justifyContent: 'flex-end'
+             }}>
             {pages.map((page) => (
               <MenuItem key={page} onClick={handleCloseNavMenu}>
-                <Typography textAlign="center" component="a" href={`#${page.toLowerCase()}`} sx={{ color: 'inherit', textDecoration: 'none' }}>
+                <Typography
+                  textAlign="center" 
+                  component="a" 
+                  href={`#${page.toLowerCase()}`} 
+                  sx={{
+                    textDecoration: 'none', 
+                    color: 'inherit', 
+                    textDecoration: 'none', 
+                    margin: '0 10px', 
+                    fontFamily: 'inherit',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 1)',
+                    fontSize: '1.3rem',
+                    fontWeight: 'bold',
+                    '&:hover': {
+                      color: '#2E8BC0',
+                    },
+                  }}>
                   {page}
                 </Typography>
               </MenuItem>
@@ -63,17 +94,25 @@ function Navbar() {
               display: { xs: 'flex', md: 'none' },
               justifyContent: 'center',
               flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.5rem',
+              fontFamily: 'Lobster',
+              fontWeight: 'bold',
+              fontSize: '2rem',
+              letterSpacing: '0.15rem',
+              textShadow: '2px 2px 4px rgba(0, 0, 0, 1)',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
             Louie Casula
           </Typography>
-          <Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}>
+          <Box 
+            sx={{ 
+              flexGrow: 0, 
+              display: { xs: 'flex', md: 'none' }, 
+              justifyContent: 'flex-end',
+            }}>
             <IconButton
+            edge="start"
             size="large"
             aria-label="account of current user"
             aria-controls="menu-appbar"
@@ -85,6 +124,7 @@ function Navbar() {
             </IconButton>
             <Menu
               id="menu-appbar"
+              anchorEl={anchorEl}
               anchorOrigin={{
                 vertical: 'bottom',
                 horizontal: 'right',
@@ -98,11 +138,26 @@ function Navbar() {
               onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: 'block', md: 'none' },
+                backgroundColor: '#2E8BC0',
+                '& .MuiPaper-root': {
+                  backgroundColor: '#2E8BC0',
+                }
               }}
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" component="a" href={`#${page.toLowerCase()}`} sx={{ color: 'inherit', textDecoration: 'none' }}>
+                  <Typography
+                    textAlign="center" 
+                    component="a" 
+                    href={`#${page.toLowerCase()}`} 
+                    sx={{ 
+                      color: 'white',
+                      textDecoration: 'none',
+                      fontFamily: 'inherit',
+                      textShadow: '2px 2px 4px rgba(0, 0, 0, 1)',
+                      fontSize: '1.3rem',
+                      fontWeight: 'bold',
+                    }}>
                     {page}
                   </Typography>
                 </MenuItem>
