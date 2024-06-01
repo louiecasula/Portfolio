@@ -4,6 +4,7 @@ import Greeting from './pages/Greeting';
 import Skills from './pages/Skills';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Skills />
         <About />
         <Portfolio />
+        <Contact />
       </main>
     </div>
   );
