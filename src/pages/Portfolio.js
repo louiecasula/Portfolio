@@ -4,13 +4,13 @@ import Projects from '../components/Projects';
 
 function Portfolio() {
     return (
-        <>
+        <div id="portfolio">
             <hr/>
-            <h1 id="portfolio">Portfolio</h1>
+            <h1>Portfolio</h1>
             <div className="projects">
                 <Projects />
             </div>
-        </>
+        </div>
     )
 }
 

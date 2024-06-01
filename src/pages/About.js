@@ -3,9 +3,9 @@ import './About.css';
 
 function About() {
     return (
-        <>
+        <div id="about">
             <hr/>
-            <h1 id="about">About Me</h1>
+            <h1>About Me</h1>
             <div className="about-block text-container">
                 <p>
                     Out of vague curiosity and a free slot in my schedule during my senior year of undergrad, I took my first programming course.
@@ -13,7 +13,7 @@ function About() {
                     After all of the time I've spent going down the rabbit hole, there is still an entire world left to discover and I'm excited to stumble upon that next educational endeavor.
                 </p>
             </div>
-        </>
+        </div>
     )
 }
 
