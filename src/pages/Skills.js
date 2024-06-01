@@ -6,7 +6,15 @@ import './Skills.css';
 export default function Skills() {
   return (
     <div className="skills">
-      <ImageList sx={{ width: '75%', height: '30%', display: 'flexbox', padding: 0 }} cols={itemData.length} gap={20}>
+      <ImageList 
+        sx={{ 
+          width: '100%', 
+          height: '30%', 
+          display: 'flexbox', 
+          padding: '2%',
+        }} 
+        cols={itemData.length} gap={20}
+      >
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
