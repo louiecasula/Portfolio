@@ -9,10 +9,12 @@ function App() {
   return (
     <div class="gradient">
       <Navbar />
-      <Greeting />
-      <Skills />
-      <About />
-      <Portfolio />
+      <main>
+        <Greeting />
+        <Skills />
+        <About />
+        <Portfolio />
+      </main>
     </div>
   );
 }

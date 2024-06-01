@@ -4,11 +4,13 @@
 body {
   font-family: Raleway, sans-serif;
   color: #FFFFFF;
-  margin: 0;
-  padding: 0;
   background: linear-gradient(334deg, #2E8BC0, #145DA0, #B1D4E0);
   background-size: 180% 180%;
   animation: gradient-animation 6s ease infinite;
+}
+
+main {
+  margin: 3% 13% 3% 13%;
 }
 
 h1 {
