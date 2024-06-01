@@ -4,13 +4,13 @@ import LouieHeadshot from '../images/LouieHeadshot.JPG';
 
 function Greeting() {
     return (
-        <>
-            <h1>Hi, I'm Louie Casula</h1>
-            <div className="greeting-block">
-                <img className="greeting-image" src={LouieHeadshot} alt="Louie's headshot"/>
-                <p>an aspiring full-stack software developer based in the Greater Philadelphia area</p>
+        <div className="greeting-block">
+            <img className="greeting-image" src={LouieHeadshot} alt="Louie's headshot"/>
+            <div className="text-container">
+                <h1>Hi, I'm Louie Casula</h1>
+                <p>an aspiring full-stack software developer looking for work in the Greater Philadelphia area</p>
             </div>
-        </>
+        </div>
     )
 }
 

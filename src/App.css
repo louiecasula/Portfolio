@@ -15,6 +15,13 @@ h1 {
     text-align: center;
 }
 
+
+.text-container {
+  background-color: #FFFFFF3F;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 @keyframes gradient-animation {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
