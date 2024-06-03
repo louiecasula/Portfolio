@@ -80,7 +80,16 @@ function Projects() {
             bgcolor: '#00000068',
             }}
         >
-            <Typography sx={{ color: 'white' }}>{images[activeStep].label}</Typography>
+            <Typography
+             sx={{ 
+              color: 'white',
+              fontFamily: 'Raleway, sans-serif',
+              fontSize: '1.2rem',
+              fontWeight: 'bold',
+            }}
+            >
+              {images[activeStep].label}
+            </Typography>
         </Paper>
         <AutoPlaySwipeableViews
             axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -107,6 +116,45 @@ function Projects() {
             </div>
             ))}
         </AutoPlaySwipeableViews>
+        <Paper
+            square
+            elevation={0}
+            sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            height: 40,
+            pl: 2,
+            pr: 2,
+            bgcolor: '#00000068',
+            }}
+        >
+            <Typography
+             sx={{ 
+              color: 'white',
+              fontFamily: 'Raleway, sans-serif',
+              fontStyle: 'italic',
+            }}
+            >
+              {images[activeStep].tech.join(", ")}
+            </Typography>
+            <Box>
+            {images[activeStep].links.map((link, index) => (
+              <Button
+                key={index}
+                sx={{
+                  color: 'white',
+                  fontFamily: 'Raleway, sans-serif',
+                  ml: 2,
+                }}
+                href={link}
+                target="_blank"
+              >
+                {index === 0 ? 'Repo' : 'Launch'}
+              </Button>
+            ))}
+          </Box>
+        </Paper>
         <MobileStepper
             sx={{ bgcolor: '#00000068' }}
             steps={maxSteps}
