@@ -56,11 +56,11 @@ function Projects() {
   const maxSteps = images.length;
 
   const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    setActiveStep((prevActiveStep) => (prevActiveStep + 1) % maxSteps);
   };
 
   const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+    setActiveStep((prevActiveStep) => (prevActiveStep - 1 + maxSteps) % maxSteps);
   };
 
   const handleStepChange = (step) => {
@@ -68,7 +68,7 @@ function Projects() {
   };
 
   return (
-    <Box sx={{ maxWidth: 800, flexGrow: 1, border: 'solid black 3px', borderRadius: '6px' }}>
+    <Box sx={{ maxWidth: 1000, flexGrow: 1, border: 'solid #00000068 3px', borderRadius: '6px' }}>
         <Paper
             square
             elevation={1}
@@ -94,9 +94,9 @@ function Projects() {
                 <Box
                     component="img"
                     sx={{
-                    height: 510,
+                    height: 500,
                     display: 'block',
-                    maxWidth: 800,
+                    maxWidth: 1000,
                     overflow: 'hidden',
                     width: '100%',
                     }}
@@ -117,7 +117,6 @@ function Projects() {
                 sx={{ color: 'white' }}
                 size="small"
                 onClick={handleNext}
-                disabled={activeStep === maxSteps - 1}
             >
                 Next
                 {theme.direction === 'rtl' ? (
@@ -128,7 +127,13 @@ function Projects() {
             </Button>
             }
             backButton={
-            <Button sx={{ color: 'white' }} size="small" onClick={handleBack} disabled={activeStep === 0}>
+            <Button 
+              sx={{ 
+                color: 'white' 
+              }} 
+              size="small" 
+              onClick={handleBack} 
+              >
                 {theme.direction === 'rtl' ? (
                 <KeyboardArrowRight />
                 ) : (
