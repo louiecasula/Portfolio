@@ -12,6 +12,8 @@ export default function Skills() {
           height: '30%', 
           display: 'flexbox', 
           padding: '2%',
+          background: '#FFFFFF3F',
+          borderRadius: '10px',
         }} 
         cols={itemData.length} gap={20}
       >
