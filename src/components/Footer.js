@@ -19,13 +19,13 @@ function Footer() {
         <footer>
             <div>
                 <a href="https://github.com/louiecasula" target="_blank">
-                    <GitHubIcon ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
+                    <GitHubIcon style={{ fontSize: '2rem' }} ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                 </a>
                 <a href="https://www.linkedin.com/in/louie-casula/" target="_blank">
-                    <LinkedInIcon ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
+                    <LinkedInIcon style={{ fontSize: '2rem' }} ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                 </a>
                 <a href="mailto:louiecasula@gmail.com" target="_blank">
-                    <EmailIcon ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
+                    <EmailIcon style={{ fontSize: '2rem' }} ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                 </a>
             </div>
             <p>Copyright © 2024 The Leuth</p>
