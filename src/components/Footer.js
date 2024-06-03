@@ -24,7 +24,7 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/louie-casula/" target="_blank">
                     <LinkedInIcon ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                 </a>
-                <a href="" target="_blank">
+                <a href="mailto:louiecasula@gmail.com" target="_blank">
                     <EmailIcon ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                 </a>
             </div>
