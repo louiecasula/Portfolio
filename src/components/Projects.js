@@ -144,7 +144,14 @@ function Projects() {
                 key={index}
                 sx={{
                   color: 'white',
+                  background: '#FFFFFF3F',
+                  border: '1px solid white',
+                  pl: 1,
+                  pr: 1,
+                  pt: 0,
+                  pb: 0, 
                   fontFamily: 'Raleway, sans-serif',
+                  fontWeight: 'bold',
                   ml: 2,
                 }}
                 href={link}
@@ -156,7 +163,10 @@ function Projects() {
           </Box>
         </Paper>
         <MobileStepper
-            sx={{ bgcolor: '#00000068' }}
+            sx={{ 
+              bgcolor: '#00000068',
+              height: 20,
+             }}
             steps={maxSteps}
             position="static"
             activeStep={activeStep}
