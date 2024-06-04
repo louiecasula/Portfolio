@@ -69,7 +69,6 @@ function Navbar() {
                   sx={{
                     textDecoration: 'none', 
                     color: 'inherit', 
-                    textDecoration: 'none', 
                     margin: '0 10px', 
                     fontFamily: 'inherit',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 1)',
