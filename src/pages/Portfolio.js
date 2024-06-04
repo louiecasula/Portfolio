@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <div id="portfolio">
             <hr/>
-            <h1>Portfolio</h1>
+            <h1>Featured Projects</h1>
             <div className="projects">
                 <Projects />
             </div>
