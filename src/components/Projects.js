@@ -68,7 +68,14 @@ function Projects() {
   };
 
   return (
-    <Box sx={{ maxWidth: 1000, flexGrow: 1, border: 'solid #00000068 3px', borderRadius: '6px' }}>
+    <Box
+       sx={{ 
+        maxWidth: 1000, 
+        flexGrow: 1, 
+        border: 'solid #00000068 3px', 
+        borderRadius: '6px' 
+      }}
+      >
         <Paper
             square
             elevation={1}
