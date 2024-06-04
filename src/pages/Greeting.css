@@ -17,3 +17,7 @@
     height: 250px;
     object-fit: cover;
 }
+
+#name {
+    color: #B5DFFF;
+}
