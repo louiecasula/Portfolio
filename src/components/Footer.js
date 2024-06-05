@@ -19,10 +19,10 @@ function Footer() {
         <footer>
             <div>
                 <a href="https://github.com/louiecasula" target="_blank">
-                    <GitHubIcon style={{ fontSize: '2rem' }} ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
+                    <GitHubIcon style={{ fontSize: '2rem' }} ref={iconRef} rel="nofollow, noindex, noreferrer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                 </a>
                 <a href="https://www.linkedin.com/in/louie-casula/" target="_blank">
-                    <LinkedInIcon style={{ fontSize: '2rem' }} ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
+                    <LinkedInIcon style={{ fontSize: '2rem' }} ref={iconRef}  rel="nofollow, noindex, noreferrer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                 </a>
                 <a href="mailto:louiecasula@gmail.com" target="_blank">
                     <EmailIcon style={{ fontSize: '2rem' }} ref={iconRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
