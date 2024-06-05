@@ -19,5 +19,8 @@
 }
 
 #name {
-    color: #96d0ff;
+    text-shadow: none;
+    background: -webkit-linear-gradient(#bbe0ff, #48f2fe, #63ffbc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
