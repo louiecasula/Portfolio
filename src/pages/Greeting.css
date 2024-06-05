@@ -11,10 +11,11 @@
 }
 
 .greeting-image {
+    float: left;
     border: 5px solid #B1D4E0;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -23,4 +24,21 @@
     background: -webkit-linear-gradient(#bbe0ff, #48f2fe, #63ffbc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width: 800px) {
+    .greeting-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .greeting-image {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .text-container h1, .text-container p {
+        text-align: center;
+    }
 }
