@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div class="gradient">
+    <div className="gradient">
       <Navbar />
       <main>
         <Greeting />
