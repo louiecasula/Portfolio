@@ -15,7 +15,7 @@ function About() {
                     Additionally, I’m proficient in React, Postgres, and object detection using OpenCV. 
                     My coding toolkit includes languages like Python, JavaScript, and SQL, and I'm continuously exploring new technologies to stay ahead of the curve.
                     <br/><br/>
-                    When I'm not coding, you can find me delving into my other passions like running or rock climbing, exploring new languages, and diving into a new anime.
+                    When I'm not coding, you can find me delving into my other passions like trail running, rock climbing, exploring new languages, or diving into a new anime.
                     These interests fuel my creativity and provide a well-rounded perspective that I bring to my professional work.
                     <br/><br/>
                     I’m always excited to connect with like-minded individuals and explore new opportunities in the tech world.
