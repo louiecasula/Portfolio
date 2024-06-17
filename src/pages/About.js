@@ -8,9 +8,18 @@ function About() {
             <h1>About Me</h1>
             <div className="about-block text-container">
                 <p>
-                    Out of vague curiosity and a free slot in my schedule during my senior year of undergrad, I took my first programming course.
-                    Fast-forward two years later and writing code has become a daily fascination for me, whether doing daily LeetCode problems or working on my latest program idea.
-                    After all of the time I've spent going down the rabbit hole, there is still an entire world left to discover and I'm excited to stumble upon that next educational endeavor.
+                    My transition from linguistics to software development started with a Harvard CS50 course, which ignited my passion for coding.
+                    Since then, I’ve completed a full stack software development bootcamp at Zip Code Wilmington and continue to refine my skills through The Odin Project, personal projects, and daily <a href='https://leetcode.com/u/Louidoo27/' target="_blank" rel="nofollow, noindex, noreferrer">LeetCode</a> challenges.
+                    <br/><br/>
+                    I specialize in Java and Spring Boot, with a strong focus on building full stack applications.
+                    Additionally, I’m proficient in React, Postgres, and object detection using OpenCV. 
+                    My coding toolkit includes languages like Python, JavaScript, and SQL, and I'm continuously exploring new technologies to stay ahead of the curve.
+                    <br/><br/>
+                    When I'm not coding, you can find me delving into my other passions like running or rock climbing, exploring new languages, and diving into a new anime.
+                    These interests fuel my creativity and provide a well-rounded perspective that I bring to my professional work.
+                    <br/><br/>
+                    I’m always excited to connect with like-minded individuals and explore new opportunities in the tech world.
+                    Let’s connect and see how we can collaborate on innovative projects!
                 </p>
             </div>
         </div>

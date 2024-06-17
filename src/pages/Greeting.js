@@ -8,7 +8,7 @@ function Greeting() {
             <img className="greeting-image" src={LouieHeadshot} alt="Louie's headshot"/>
             <div className="text-container">
                 <h1>Hi, I'm <span id="name">Louie</span>.</h1>
-                <p>I'm an aspiring <b>full stack software developer</b> looking for work in the Greater Philadelphia area.</p>
+                <p>I'm a passionate and dedicated <b>software developer</b> with a background in linguistics and foreign languages.</p>
             </div>
         </div>
     )

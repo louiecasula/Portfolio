@@ -13,3 +13,14 @@
     font-size: 1.4rem;
     text-align: center;
 }
+
+.about-block a {
+    text-decoration: none;
+    color: #145DA0;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.about-block a:hover {
+    color: #024CAF;
+}
