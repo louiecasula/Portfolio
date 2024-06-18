@@ -25,6 +25,8 @@
     background: -webkit-linear-gradient(#bbe0ff, #48f2fe, #63ffbc);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: #1a6a66;
 }
 
 .glow {
