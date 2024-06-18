@@ -17,8 +17,8 @@ export default function Skills() {
         }} 
         cols={itemData.length} gap={20}
       >
-        {itemData.map((item) => (
-          <ImageListItem key={item.img}>
+        {itemData.map((item, index) => (
+          <ImageListItem key={item.img} sx={{ '--i': index }}>
             <img
               srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
               src={`${item.img}?w=161&fit=crop&auto=format`}

@@ -1,4 +1,27 @@
 .skills {
     display: flex;
-    justify-content: center;
 }
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(2px);
+    }
+    50% {
+      transform: translateY(-2px);
+    }
+}
+
+.skills img {
+    animation: bounce ease 6s infinite;
+    animation-delay: calc(var(--i) * 1.5s);
+}
+
+.skills img:nth-child(1) { --i: 0; }
+.skills img:nth-child(2) { --i: 1; }
+.skills img:nth-child(3) { --i: 2; }
+.skills img:nth-child(4) { --i: 3; }
+.skills img:nth-child(5) { --i: 4; }
+.skills img:nth-child(6) { --i: 5; }
+.skills img:nth-child(7) { --i: 6; }
+.skills img:nth-child(8) { --i: 7; }
+.skills img:nth-child(9) { --i: 8; }
