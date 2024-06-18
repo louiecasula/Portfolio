@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.90947b56.css",
-    "main.js": "/Portfolio/static/js/main.be55331d.js",
+    "main.css": "/Portfolio/static/css/main.37784ff3.css",
+    "main.js": "/Portfolio/static/js/main.f42d75fe.js",
     "static/media/LouieHeadshot.JPG": "/Portfolio/static/media/LouieHeadshot.108ff1a82a5cf5157032.JPG",
     "static/media/YeeChat.JPG": "/Portfolio/static/media/YeeChat.d5a53c84756539a536e3.JPG",
     "static/media/LingosphereV1.JPG": "/Portfolio/static/media/LingosphereV1.50474d1efb5d7d4daad9.JPG",
@@ -9,11 +9,11 @@
     "static/media/LingosphereV2.JPG": "/Portfolio/static/media/LingosphereV2.bee8037d39f3df348da6.JPG",
     "static/media/EtchASketch.JPG": "/Portfolio/static/media/EtchASketch.04dd797d9dc074ba28f4.JPG",
     "index.html": "/Portfolio/index.html",
-    "main.90947b56.css.map": "/Portfolio/static/css/main.90947b56.css.map",
-    "main.be55331d.js.map": "/Portfolio/static/js/main.be55331d.js.map"
+    "main.37784ff3.css.map": "/Portfolio/static/css/main.37784ff3.css.map",
+    "main.f42d75fe.js.map": "/Portfolio/static/js/main.f42d75fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.90947b56.css",
-    "static/js/main.be55331d.js"
+    "static/css/main.37784ff3.css",
+    "static/js/main.f42d75fe.js"
   ]
 }
