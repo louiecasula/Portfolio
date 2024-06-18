@@ -74,8 +74,9 @@ function Navbar() {
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 1)',
                     fontSize: '1.3rem',
                     fontWeight: 'bold',
+                    transition: 'text-shadow 1s ease-in-out',
                     '&:hover': {
-                      color: '#2E8BC0',
+                      animation: 'glow 1s ease-in-out infinite alternate',
                     },
                   }}>
                   {page}
