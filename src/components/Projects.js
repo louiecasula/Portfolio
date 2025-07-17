@@ -14,10 +14,17 @@ import LingosphereV2 from '../images/LingosphereV2.JPG';
 import Calculator from '../images/Calculator.JPG';
 import EtchASketch from '../images/EtchASketch.JPG';
 import YeeChat from '../images/YeeChat.JPG';
+import ObjectDetection from '../images/ObjectDetection.png';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
+  {
+    label: 'Vehicle Detection',
+    tech: ['Python', 'OpenCV', 'YOLOv8', 'Deep SORT'],
+    links: ['https://github.com/louiecasula/VehicleDetection'],
+    imgPath: ObjectDetection,
+  },
   {
     label: 'Lingosphere V2',
     tech: ['Java', 'Spring Boot', 'React'],
